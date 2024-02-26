@@ -40,13 +40,13 @@ torchsde >= 0.2.5
 
 ## Data
 
-All data, including stock price data and constructed E-Graph, are under the [data]() folder.
+All data, including stock price data and constructed E-Graph, are under the [data](https://github.com/pupu0302/ECHOGL/tree/main/data) folder.
 
 Note that, for pre-processed earnings call data, we adopted two widely studied earnings call datasets Qin's [[1]](https://aclanthology.org/P19-1038.pdf) and MAEC [[2]](https://dl.acm.org/doi/pdf/10.1145/3340531.3412879), both of which have provided pre-processed data.
 
 ### Stock price data
 
-We collect dividend-adjusted closing prices from [Yahoo Finance](https://aclanthology.org/P19-1038.pdf)). Collected price data is under the [historical_price]() folder.
+We collect dividend-adjusted closing prices from [Yahoo Finance](https://aclanthology.org/P19-1038.pdf)). Collected price data is under the [historical_price](https://github.com/pupu0302/ECHOGL/tree/main/data/historical_price) folder.
 
 <!-- All data, including Sequential Data, Industry Relation, and Wiki Relation, are under the data folder. 
 We use Qin's and MAEC as raw data
@@ -135,7 +135,7 @@ to enable gpu acceleration, add the flag of:
 
 
 
-<!-- Citation      
+<!-- Citation    
 ## Citation
 If you use the code, please kindly cite the following paper: 
 ```
